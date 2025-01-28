@@ -1,0 +1,1 @@
+This Haskell code suffers from a subtle bug related to lazy evaluation and infinite lists. The function `potentialBug` attempts to find the first even number greater than 10 in an infinite list of numbers. However, due to Haskell's lazy evaluation, it might not terminate as expected if no such number exists within the initially evaluated portion of the list.
